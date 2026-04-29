@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MindtekTestNGFramework">
+    <test name="UI Automation">
+        <groups>
+            <run>
+                <include name="testbase"/>
+                <include name="regression"/>
+                <!--                <exclude name="saucedemo"/>-->
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.FrameworkTest"></class>
+            <class name="tests.BlazedemoLinkTest"></class>
+            <class name="tests.SauceDemoLoginTest"></class>
+            <class name="tests.SaucedemoSortPriceTest"></class>
+            <class name="tests.BankSignUpTest"></class>
+        </classes>
+    </test>
+    <test name="API Automation">
+
+    </test>
+    <test name="Mobile Automation">
+
+    </test>
+</suite>
