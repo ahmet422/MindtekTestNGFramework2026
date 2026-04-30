@@ -12,5 +12,11 @@ public class JDBCTest2 {
 
 //        System.out.println(data.get(0).get("department_name"));
         for(Map<String,Object> el : data) System.out.println(el);
+        for(Map<String,Object> el : data) System.out.println(el);
+
+        for(Map<String,Object> el : data) System.out.println(el);
+
+        for(Map<String,Object> el : data) System.out.println(el);
+
     }
 }
