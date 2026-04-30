@@ -1,2 +1,4 @@
 I am learning git.
-I justa added this text to this file.
+I just added this text to this file.
+
+Lets add more text.
