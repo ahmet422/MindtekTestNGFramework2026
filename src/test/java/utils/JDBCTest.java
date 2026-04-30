@@ -12,9 +12,9 @@ public class JDBCTest {
 
         // establish connection:
         Connection connection = DriverManager.getConnection(
-                "jdbc:postgresql://localhost:5433/HR_productions",
-                "postgres",
-                "admin"
+                "",
+                "",
+                ""
         );
 
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
